@@ -95,7 +95,7 @@ namespace Api_Project.Controllers
             }
         }
 
-        [HttpPut("addorupdatehotel/{id}")]
+        [HttpPut("addorupdatehotel/{id}}")]
         public async Task<IActionResult> AddHotelThroughPut([FromBody] Hotels hotelDto, string id)
         {
             try

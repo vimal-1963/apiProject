@@ -10,6 +10,9 @@ namespace Api_Project
         [DynamoDBHashKey]
         public string hotelId { get; set; }
 
+        [DynamoDBProperty("hotelName")]
+        public string HotelName { get; set; }
+
         [DynamoDBProperty("amenities")]
         public List<string> Amenities { get; set; }
 

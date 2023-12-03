@@ -20,9 +20,11 @@ catch(Exception ex)
     Console.WriteLine(ex.Message.ToString());
 }
 
-
-
 var app = builder.Build();
+app.UseCors(options =>
+{
+    options.AllowAnyOrigin().AllowAnyHeader();
+});
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

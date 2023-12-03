@@ -64,7 +64,7 @@ namespace Api_Project
             { 
                 Hotel.hotelId = id;
                 Hotel.Amenities =hotels .Amenities;
-                Hotel.InsuranceAmount = hotels.InsuranceAmount;
+                Hotel.InsuranceAmount = hotels.InsuranceAmount;  
                 Hotel.Rooms = hotels.Rooms;
                 await addHotel(Hotel);
             }

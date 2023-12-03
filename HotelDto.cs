@@ -3,6 +3,8 @@
     public class HotelDto
     {
         public string hotelId { get; set; }
+
+        public string HotelName { get; set; }
         public List<string> Amenities { get; set; }
         public string InsuranceAmount { get; set; }
         public List<RoomDto> Rooms { get; set; }
