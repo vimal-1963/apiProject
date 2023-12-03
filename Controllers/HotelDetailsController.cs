@@ -5,8 +5,11 @@ using AutoMapper;
 
 namespace Api_Project.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
+
+    
     public class HotelDetailsController : ControllerBase
     {
         private readonly ILogger<HotelDetailsController> _logger;
@@ -95,6 +98,10 @@ namespace Api_Project.Controllers
             }
         }
 
+<<<<<<< Updated upstream
+=======
+        
+>>>>>>> Stashed changes
         [HttpPut("addorupdatehotel/{id}")]
         public async Task<IActionResult> AddHotelThroughPut([FromBody] Hotels hotelDto, string id)
         {
@@ -108,7 +115,8 @@ namespace Api_Project.Controllers
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
-
+        
+        
         [HttpPatch("patchhotel/{id}")]
         public async Task<IActionResult> UpdateHotelThroughPatch([FromBody] Hotels hotel, string id)
         {
@@ -123,6 +131,8 @@ namespace Api_Project.Controllers
             }
         }
         
+        
 
     }
+    
 }

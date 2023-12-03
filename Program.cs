@@ -23,6 +23,13 @@ catch(Exception ex)
 
 
 var app = builder.Build();
+<<<<<<< Updated upstream
+=======
+app.UseCors(options =>
+{
+   options.AllowAnyOrigin().AllowAnyHeader();
+});
+>>>>>>> Stashed changes
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
