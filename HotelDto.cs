@@ -4,6 +4,8 @@
     {
         public string hotelId { get; set; }
         public List<string> Amenities { get; set; }
+
+        public string hotelName { get; set; }
         public string InsuranceAmount { get; set; }
         public List<RoomDto> Rooms { get; set; }
     }

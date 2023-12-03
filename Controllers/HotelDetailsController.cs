@@ -98,10 +98,7 @@ namespace Api_Project.Controllers
             }
         }
 
-<<<<<<< Updated upstream
-=======
-        
->>>>>>> Stashed changes
+
         [HttpPut("addorupdatehotel/{id}")]
         public async Task<IActionResult> AddHotelThroughPut([FromBody] Hotels hotelDto, string id)
         {

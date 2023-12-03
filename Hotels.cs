@@ -13,6 +13,9 @@ namespace Api_Project
         [DynamoDBProperty("amenities")]
         public List<string> Amenities { get; set; }
 
+        [DynamoDBProperty("hotelName")]
+        public string hotelName { get; set; }
+
         [DynamoDBProperty("insuranceAmount")]
         public string InsuranceAmount { get; set; }
 
