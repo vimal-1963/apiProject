@@ -1515,19 +1515,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\visha\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\SEMESTER 6\\CLOUDAPI\\CloudApi_Project\\Api_Project\\Api_Project.csproj",
+      "projectUniqueName": "E:\\Centennial Software Engineering Technology\\Semester 3\\cloud computing\\project\\apiProject\\Api_Project.csproj",
       "projectName": "Api_Project",
-      "projectPath": "F:\\SEMESTER 6\\CLOUDAPI\\CloudApi_Project\\Api_Project\\Api_Project.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "F:\\SEMESTER 6\\CLOUDAPI\\CloudApi_Project\\Api_Project\\obj\\",
+      "projectPath": "E:\\Centennial Software Engineering Technology\\Semester 3\\cloud computing\\project\\apiProject\\Api_Project.csproj",
+      "packagesPath": "C:\\Users\\visha\\.nuget\\packages\\",
+      "outputPath": "E:\\Centennial Software Engineering Technology\\Semester 3\\cloud computing\\project\\apiProject\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\visha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1535,6 +1540,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
