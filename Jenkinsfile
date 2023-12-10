@@ -26,7 +26,7 @@ pipeline{
     stage('Deliver') {
       steps {
                 // Publish your .NET Core Web API project
-                sh 'dotnet publish -c Release -o ./publish'
+                bat 'dotnet publish -c Release -o ./publish'
             }
         }
 
