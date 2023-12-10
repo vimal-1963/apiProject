@@ -18,7 +18,7 @@ pipeline{
 
     stage('Test'){
       steps{
-        sh 'echo Runing test on project'
+        bat 'echo Runing test on project'
       }
       
     }
